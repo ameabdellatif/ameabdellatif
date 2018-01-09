@@ -7,7 +7,7 @@ class Example extends React.Component {
     // fake server request, getting the file url as response
     setTimeout(() => {
       const response = {
-        file: 'http://releases.ubuntu.com/12.04.5/ubuntu-12.04.5-alternate-amd64.iso',
+        file: '',
       };
       // server sent the url to the file!
       // now, let's download:
